@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameActions {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameActions button {
+  margin-left: 10px;
+}
+
+.ageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ageActions {
+  display: flex;
+  flex-direction: row;
+}
+
+.ageActions button {
+  margin: 10px;
+}
+
+.reset {
+  margin-top: 50px;
+}
