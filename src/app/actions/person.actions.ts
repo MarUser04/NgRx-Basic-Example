@@ -9,7 +9,6 @@ export const RESET      = '[Post] Reset';
 export class EditName implements Action {
   readonly type = EDIT_NAME;
 
-  /// user a constructor to send a payload with the action
   constructor(public payload: string) {}
 }
 
